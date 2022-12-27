@@ -1,0 +1,108 @@
+/*outdooradventure*/
+/*Authour Name: Harshadkumar Patel, 000852665*/
+body{
+	font-family: Tahoma,Geneva,Sans-serif;
+}
+header{
+	display: grid;
+	grid-template-columns:auto auto auto;
+	background-color: white;
+}
+.socialmedia{
+	margin-top: 50px;
+	justify-self:left; /* Basically justify and align set the position*/
+	align-self: left;
+}
+.logo{
+	justify-self: center;/* Basically justify and align set the position*/
+	align-self: center;
+	
+}
+.links{
+	margin-top: 100px;
+	justify-self: right;/* Basically justify and align set the position*/
+	align-self:right;
+}
+.socialmedia ul{
+	list-style-type: none;
+	padding: 25px;
+	margin: 10px;
+}
+.socialmedia li{
+	display: inline;
+}
+.links a{
+	border-radius: 10px;
+	width: auto;
+	height: auto;
+	text-decoration: none;
+	background-color:#0172BA;
+	color: white;
+	border: solid #0172BA 2px;
+	padding: 5px 5px;
+}
+.links a:hover{
+	color: white;
+	background-color: #089247;
+	border: solid #089247 2px;
+}
+nav{
+	background-color:#ECF7FE;
+	line-height: 400%;
+	text-align: center; 
+}
+nav li{
+	display: inline;
+	padding: 50px;
+}
+nav a{
+	border-radius: 10px;
+	width: 15px;
+	height: auto;
+	background-color: white ;
+	color: #0172BA;
+	border: solid #0172BA 2px;
+	padding: 5px 5px;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #0172BA;
+	background-color: #003557;
+	border: solid #003557 2px;
+}
+h1,h2{
+	background-color: #0172BA;
+	color: white;
+	text-align: center;
+}
+h4{
+	text-decoration: underline;
+	border-bottom: underline;
+
+}
+.crdits{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	border-top: solid #0172BA 1px;
+	border-bottom: solid #0172BA 1px;
+	border-style: auto;
+}
+
+footer{
+	border-top: solid #0172BA 2px;
+	border-bottom: solid #0172BA 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns:250px 210px 210px 210px 210px 210px;  
+}
+footer img{
+
+	margin-top: center;
+	margin-bottom: center;
+
+	justify-self:center;
+	align-self:center;
+
+}
